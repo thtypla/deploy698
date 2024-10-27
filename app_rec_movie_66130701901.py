@@ -1,5 +1,6 @@
 
 import streamlit as st
+from surprise import SVD
 import pickle
 
 # Load data from the file
